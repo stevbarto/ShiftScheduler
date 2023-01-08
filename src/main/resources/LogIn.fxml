@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShiftScheduler.LoginController">
+    <children>
+        <Pane layoutX="19.0" layoutY="22.0" prefHeight="178.0" prefWidth="304.0" style="-fx-border-color: BLACK; -fx-border-radius: 15;">
+            <children>
+                <Button fx:id="loginButton" layoutX="97.0" layoutY="107.0" mnemonicParsing="false" onAction="#loginButtonListener" text="Log In">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></Button>
+                <Button fx:id="cancelButton" layoutX="196.0" layoutY="107.0" mnemonicParsing="false" onAction="#cancelButtonListener" text="Cancel">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></Button>
+                <Label fx:id="usernameLabel" layoutX="23.0" layoutY="25.0" text="User Name:">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></Label>
+                <Label fx:id="passwordLabel" layoutX="26.0" layoutY="64.0" text="Password:">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></Label>
+                <TextField fx:id="usernameField" layoutX="131.0" layoutY="21.0" onAction="#userNameListener" promptText="username">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></TextField>
+                <TextField fx:id="passwordField" layoutX="131.0" layoutY="60.0" onAction="#passWordListener" promptText="password">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></TextField>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+.root{
+-fx-font-size: 11pt;
+-fx-font-family: "Arial";
+}
+
+#scheduleTemplateTable{
+-fx-font-size: 11pt;
+-fx-font-family: "Arial";
+}
+
+.table1{
+-fx-font-size: 11pt;
+-fx-font-family: "Arial";
+}
+
+#lineChart{
+-fx-font-size: 11pt;
+-fx-font-family: "Arial";
+}
+
+#scatterPlot{
+-fx-font-size: 11pt;
+-fx-font-family: "Arial";
+}
+
+#lineXAxis {
+-fx-font-size: 11pt;
+-fx-font-family: "Arial";
+}
